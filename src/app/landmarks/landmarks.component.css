@@ -1,0 +1,221 @@
+.line {
+    color: #524536;
+    padding-left: 55px;
+    margin-bottom: 0;
+
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #F6BA1E;
+    margin: auto;
+}
+
+.blue {
+    color: #092759;
+}
+
+p {
+    opacity: .75;
+    word-spacing: 5px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.rounded {
+    width: 30px;
+}
+
+.image {
+    background-image: url(https://ncclimited.com/img/About%20Us%20Banner_1920x380px.jpg);
+    /* width: 100%; */
+    color: #fff;
+}
+.line1 {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.line2 {
+    width: 100px;
+    height: 3px;
+    background-color: #092759;
+    margin-top: 11px;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+.text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-div {
+    padding: 0px 0px;
+    position: relative;
+    background: inherit;
+    width: 50%;
+}
+.container-div::before {
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    top: calc(45% - 0px);
+    right: 0px;
+    background: #d2d3d5;
+    z-index: 1;
+}
+.timeline-page .container-div .content {
+    padding-left: 135px;
+}
+
+.container-div .content {
+    padding: 30px 90px 0px 30px;
+    position: relative;
+    width: 80%;
+}
+.timeline-year-img {
+    position: absolute;
+    left: 0;
+    width: 120px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.container-div.blue::after {
+    border-color: #092759;
+}
+
+.container-div::after {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: calc(35% - 8px);
+    right: -40px;
+    background: #ffffff;
+    border: 19px solid #006E51;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.container-div.right {
+    left: 50%;
+}
+.container-div.right::before {
+    left: 8px;
+}
+
+.container-div::before {
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    top: calc(45% - 0px);
+    right: 0px;
+    background: #d2d3d5;
+    z-index: 1;
+}
+.container-div.right::after {
+    left: -25px;
+}
+
+.container-div.violet::after {
+    border-color: #522e91;
+}
+.container-div::after {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: calc(35% - 8px);
+    right: -40px;
+    background: #ffffff;
+    border: 19px solid #006E51;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.timeline-page .container-div.right .content {
+    padding-right: 135px;
+    text-align: right;
+}
+.timeline-page .container-div .content {
+    padding-left: 135px;
+}
+.container-div.right .content {
+    padding: 30px 30px 0px 90px;
+    text-align: right;
+    margin-left: auto;
+}
+.right .timeline-year-img {
+    left: initial;
+    right: 0;
+    top: 0;
+}
+
+.timeline-year-img {
+    position: absolute;
+    left: 0;
+    width: 120px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.timeline-year {
+    color: #513096;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.container-div.purple::after {
+    border-color: #782b90;
+}
+.container-div.pink-shade::after {
+    border-color: #ab218e;
+}
+.container-div.pink::after {
+    border-color: #ec008c;
+}
+.container-div.orange::after {
+    border-color: #f7931e;
+}
+.container-div.yellow::after {
+    border-color: #fdb913;
+}
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    background: #e6e7e8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    border-radius: 50px;
+}   

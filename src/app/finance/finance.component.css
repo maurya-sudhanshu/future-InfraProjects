@@ -1,0 +1,153 @@
+.line {
+    color: #524536;
+    padding-left: 55px;
+    margin-bottom: 0;
+
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #F6BA1E;
+    margin: auto;
+}
+
+.blue {
+    color: #092759;
+}
+
+p {
+    opacity: .75;
+    word-spacing: 5px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.rounded {
+    width: 30px;
+}
+
+.image {
+    background-image: url(https://ncclimited.com/img/About%20Us%20Banner_1920x380px.jpg);
+    /* width: 100%; */
+    color: #fff;
+}
+
+.line1 {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container1 {
+    position: relative;
+    background-color: #092759;
+    color: #fff;
+    height: 270px;
+    /* width: 220px; */
+    padding: 5px;
+}
+
+.container2 {
+    /* position: absolute; */
+    background-color: #092759;
+    color: #fff;
+    height: 50px;
+    padding: 20px;
+    /* width: 200px; */
+}
+
+.container2:hover {
+    background-color: #fff;
+    color: #092759;
+
+}
+
+hr {
+    background-color: #fff;
+}
+
+.line2 {
+    /* width: 200px; */
+    height: 1px;
+    background-color: #fff;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.finance-table tr:nth-child(odd) {
+    background: #dcdddf;
+}
+
+.finance-table tr:nth-child(even) {
+    background: #a9abae;
+}
+
+.finance-table tr {
+    border-top: 10px solid #fff;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.finance-table tr:nth-child(odd) {
+    background: #dcdddf;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+
+.finance-table th {
+    background: #092759;
+    color: #fff;
+    border-right: 1px solid #fff;
+    font-size: 12px;
+    padding: 6px 5px;
+    text-align: center;
+}
+
+.finance-table td {
+    text-align: center;
+    font-size: 14px;
+    border-right: 1px solid #092759;
+    padding: 6px 5px;
+    color: #000;
+}

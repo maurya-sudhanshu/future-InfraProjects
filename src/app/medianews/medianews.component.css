@@ -1,0 +1,125 @@
+.line {
+    color: #524536;
+    padding-left: 55px;
+    margin-bottom: 0;
+
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #F6BA1E;
+    margin: auto;
+}
+
+.blue {
+    color: #092759;
+}
+
+p {
+    opacity: .75;
+    word-spacing: 5px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.rounded {
+    width: 30px;
+}
+
+.image {
+    background-image: url(https://ncclimited.com/img/About%20Us%20Banner_1920x380px.jpg);
+    /* width: 100%; */
+    color: #fff;
+}
+
+.line1 {
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.text1 {
+    color: purple;
+    text-decoration: none;
+}
+
+.text2 {
+    color: gray;
+    text-decoration: none;
+}
+
+.con0 {
+    background-color: #ab218e;
+    color: #fff;
+    padding: 15px;
+}
+
+.con1 {
+    background-color: #092759;
+    color: #fff;
+    padding: 15px;
+}
+
+.con2 {
+    background-color: #F8931F;
+    color: #fff;
+    padding: 15px;
+}
+
+.con3 {
+    width: 130px;
+    height: 50px;
+    border: solid 1px purple;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.con4 {
+    width: 130px;
+    height: 50px;
+    border: solid 1px gray;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.con4:hover{
+    width: 130px;
+    height: 50px;
+    border: solid 1px purple;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.con4:hover .text2 {
+    color: purple;
+    text-decoration: none;
+}
+
+::ng-deep.owl-prev{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+}
+::ng-deep.owl-next{
+    position: absolute;
+    top: 45%;
+    right : 10px;
+}
+.img1{
+    width: 30%;
+}

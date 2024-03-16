@@ -1,0 +1,21 @@
+.b {
+    background-color: #092759;
+    color: aliceblue;
+    font-size: 18px;
+    /* text-decoration: none; */
+}
+
+h6 {
+    font-size: larger;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+.text-reset:hover {
+    text-decoration: underline;
+}
+.fab{
+    font-size: 35px;
+    margin: 10px;
+}

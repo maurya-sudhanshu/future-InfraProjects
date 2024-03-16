@@ -1,0 +1,67 @@
+<section class="p-lg-5 p-md-5 p-sm-3 image">
+    <div class="p-lg-5 p-md-5 p-sm-3 text-light">
+        <div class="line position-relative">
+            <h5 class="text-light">IMPACTFUL COVERAGE</h5>
+        </div>
+        <h1><strong>Media</strong></h1><br>
+        <div class="d-flex">
+            <a routerLink="/home" class="text"><strong>Home</strong></a>
+            <div class="line1"></div>
+            <strong>In The News</strong>
+        </div>
+    </div>
+</section>
+<section class="p-lg-5 p-md-5 p-sm-3 ">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 con0"><a class="text" routerLink="medianews">PRESS COVERAGE</a></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 con1"><a class="text" routerLink="">PRESS RELEASES</a> </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 con2"><a class="text" routerLink="">LATEST HAPPENINGS</a></div>
+        </div>
+        <div class="row pt-lg-5 pt-md-5 pt-sm-3">
+            <div class="col-lg-8 col-md-6">
+                <div class="line position-relative">
+                    <h6>Press Coverage</h6>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 row">
+                <div class="con3 d-flex ">
+                    <a class="text1">
+                        <h5>2023</h5>
+                    </a>
+                </div>
+                <div class="con4 d-flex ">
+                    <a class="text2">
+                        <h5>2022</h5>
+                    </a>
+                </div>
+                <div class="con4 d-flex ">
+                    <a class="text2">
+                        <h5>2021</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide> <img class="img-fluid img1" src="https://ncclimited.com/press-coverage/2023/July/Saakshi-050723.jpg"></ng-template>
+    <ng-template carouselSlide> <img class="img-fluid img1" src="	https://ncclimited.com/press-coverage/2023/July/Enadu-050723.jpg"></ng-template>
+    <ng-template carouselSlide> <img class="img-fluid img1" src="	https://ncclimited.com/press-coverage/2023/June/Enadu-270523.jpg"></ng-template>
+    <ng-template carouselSlide> <img class="img-fluid img1" src="https://ncclimited.com/press-coverage/2023/June/Namate%20Telangana-03062023.jpg"></ng-template>
+    <ng-template carouselSlide> <img class="img-fluid img1" src="https://ncclimited.com/press-coverage/2023/June/Enadu-030523.jpg"></ng-template>
+    <ng-template carouselSlide> <img class="img-fluid img1" src="https://ncclimited.com/press-coverage/2023/July/Enadu-050723.jpg"></ng-template>
+</owl-carousel-o>
+</div>
+</section>
+
+<script>$('.carousel .carousel-item').each(function () {
+        var minPerSlide = 4;
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+
+        for (var i = 0; i < minPerSlide; i++) { next = next.next(); if (!next.length) { next = $(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); }
+    });</script>

@@ -1,0 +1,57 @@
+.image{
+    background-image:url(https://ncclimited.com/img/About%20Us%20Banner_1920x380px.jpg);
+    /* width: 100%; */
+    color:#fff;
+}
+.line {
+    color: #524536;
+    padding-left: 55px;
+    margin-bottom: 0;
+
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background: #F6BA1E;
+    margin: auto;
+}
+.text{
+    color: #fff;
+    text-decoration: none;
+}
+.line1{
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+.img-thumbnail{
+    width:400px;
+}
+p{
+    color: #524536;
+}
+.blue{
+    color: #092759;
+}
+.con {
+    background-color: white;
+    box-shadow: 1px 1px 20px #cecdcd;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin-top: 20px;
+    /* width: 100%; */
+
+}
